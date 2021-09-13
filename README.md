@@ -1,5 +1,5 @@
 # Labeled RFS cell tracking algorithm
-A cell tracking and lineage inference algorithm based on labeled random finite set. The algorithm is described in the following paper:
+A cell tracking and lineage inference algorithm based on labeled random finite set. The algorithm is described in the following paper:\
 @article{NVVKC2021CellTracking, \
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; title={Tracking Cells and their Lineages via Labeled Random Finite Sets},\
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; author={Tran Thien Dat Nguyen and Ba-Ngu Vo and Ba-Tuong Vo and Du Yong Kim and Yu Suk Choi},\
