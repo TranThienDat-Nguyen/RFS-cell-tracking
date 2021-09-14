@@ -22,8 +22,8 @@ The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided i
 # Acknowledgments
 This implementation is based on MATLAB RFS tracking toolbox provided by Prof. Ba-Tuong Vo at http://ba-tuong.vo-au.com/codes.html. \
 The computation of TRA score is based on BaxterAlgorithms cell tracking package provided by Dr. Klas Magnusson at https://github.com/klasma/BaxterAlgorithms. \
-The simcep simulation is based on the paper https://ieeexplore.ieee.org/document/4265752. \
-The MPHD spot detector algorithm is based on the paper https://ieeexplore.ieee.org/document/6235684. \
+The simcep simulation is provided by Dr. Antti Lehmussola based on the paper https://ieeexplore.ieee.org/document/4265752. \
+The MPHD spot detector algorithm is provided by Dr. Hamid Rezatofighi at http://users.cecs.anu.edu.au/~hrezatofighi/publications.htm. \
 For more details on licenses and information of softwares, functions used in this implementation, see 'third_party' folder.
 # Contact
 For any queries please contact me at tranthiendat.nguyen@gmail.com
