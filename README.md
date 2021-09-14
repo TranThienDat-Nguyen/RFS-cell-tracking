@@ -8,7 +8,8 @@ Cell tracking and lineage inference algorithms based on labeled random finite se
 }. \
 Default settings are obtained from the paper, please follow the comments in demo files to adjust the parameters for your specific applications. The codes are developed for academic/research purposes and not optimized for speed.
 # Requirements
-MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, Fuzzy Logic Toolbox.
+MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, Fuzzy Logic Toolbox. \
+The codes have been tested on Windows and Linux machines.
 # Usages
 Run demo_exp1.m for experiment 1 in the paper.\
 Run demo_exp2.m for experiment 2 in the paper.\
