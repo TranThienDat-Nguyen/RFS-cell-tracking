@@ -1,10 +1,24 @@
 # Labeled RFS cell tracking algorithm
-A cell tracking and lineage inference algorithm based on labeled random finite set. The algorithm is described in the following paper:\
+Cell tracking and lineage inference algorithms based on labeled random finite set. The algorithms are described in the following paper:\
 @article{NVVKC2021CellTracking, \
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; title={Tracking Cells and their Lineages via Labeled Random Finite Sets},\
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; author={Tran Thien Dat Nguyen and Ba-Ngu Vo and Ba-Tuong Vo and Du Yong Kim and Yu Suk Choi},\
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; year={2021},\
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; journal={IEEE Transactions on Signal Processing}\
 }. \
-Default settings are obtained from the paper, please adjust them for your applications.
+Default settings are obtained from the paper, please follow the comments in demo files to adjust the parameters for your specific applications. The codes are developed for academic/research purposes and not optimized for speed.
+# Requirements
+MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, Fuzzy Logic Toolbox.
+# Usages
+Run demo_exp1.m for experiment 1 in the paper.\
+Run demo_exp2.m for experiment 2 in the paper.\
+Run demo_exp3.m for experiment 3 in the paper.\
+The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate.
+# Testing datasets
+The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. \
+The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'data/img_exp3'.
+# Acknowledgment
+This implementation is developed based on MATLAB RFS tracking toolbox provided by Prof. Ba-Tuong Vo at http://ba-tuong.vo-au.com/codes.html.
+For licenses and information of other softwares, functions used in this implementation, see 'third_party' folder.
+# Contact
 For any queries please contact me at tranthiendat.nguyen@gmail.com
