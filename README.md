@@ -6,6 +6,7 @@ These codes are implementation of cell tracking and lineage inference algorithms
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; year={2021},\
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; journal={IEEE Transactions on Signal Processing}\
 }. \
+Preprint version of this paper is avaialble at https://arxiv.org/pdf/2104.10964.pdf. \
 Default settings are obtained from the paper, please follow the comments in demo files to adjust the parameters for your specific applications. The codes are developed for research purposes and not optimized for speed.
 # Requirements
 This implementation requires MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, and Fuzzy Logic Toolbox. \
