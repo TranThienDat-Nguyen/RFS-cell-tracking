@@ -1,0 +1,11 @@
+Type: breast cancer cells (MDA-MB-231).
+Size: 2560 x 1920 (pixels).
+Conversion rate: 1 pixel = 0.4287 micrometer.
+Microscope: Nikon Ti-E inverted microscope with Fi2 camera.
+Reference:
+@article{NVVKC2021CellTracking,
+       title={Tracking Cells and their Lineages via Labeled Random Finite Sets},
+       author={Tran Thien Dat Nguyen and Ba-Ngu Vo and Ba-Tuong Vo and Du Yong Kim and Yu Suk Choi},
+       year={2021},
+       journal={IEEE Transactions on Signal Processing}
+}.
