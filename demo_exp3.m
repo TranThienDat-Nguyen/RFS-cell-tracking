@@ -1,5 +1,5 @@
 %% Info
-% Run the synthetic cell tracking experiment in the paper
+% Run the breast cancer cell tracking experiment in the paper
 %% Prepare workspace
 clear all
 clc
