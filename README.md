@@ -9,7 +9,7 @@ These codes are implementation of cell tracking and lineage inference algorithms
 Preprint version of this paper is avaialble at https://arxiv.org/pdf/2104.10964.pdf. \
 Default settings are obtained from the paper, please follow the comments in demo files to adjust the parameters for your specific applications. The codes are developed for research purposes and not optimized for speed.
 # Requirements
-This implementation requires MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, and Fuzzy Logic Toolbox. \
+This implementation requires MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, Parallel Computing Toolbox, and Fuzzy Logic Toolbox. \
 The codes were tested on Windows and Linux machines.
 # Usages
 cd to the folder contains the files 'demo_exp1.m', 'demo_exp2.m', and 'demo_exp3.m'. \
