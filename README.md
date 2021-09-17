@@ -27,4 +27,6 @@ The simcep simulation is provided by Dr. Antti Lehmussola based on the paper htt
 The MPHD spot detector algorithm is provided by Dr. Hamid Rezatofighi at http://users.cecs.anu.edu.au/~hrezatofighi/publications.htm. \
 For more details on licenses and information of softwares, functions used in this implementation, see 'third_party' folder.
 # Contact
-For any queries please contact me at tranthiendat.nguyen@gmail.com
+For any queries please contact me at tranthiendat.nguyen@gmail.com.\
+Copyright (c) 2021, Tran Thien Dat Nguyen \
+All rights reserved.
