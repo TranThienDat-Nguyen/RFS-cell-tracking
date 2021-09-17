@@ -1,6 +1,4 @@
 function [optm_costm_clutter_first , optm_costm_clutter] = gen_clutter_lookup(model, N_max_clt_births_first, N_max_cl, N_top_cl, N_max_z, N_min_z)
-% I grab this from Yuthika codes
-% Unknown clutter related parameters ----- --------------------------------
 
 %clutter target birth modeal
 N_max_clt_births_first = 100;
