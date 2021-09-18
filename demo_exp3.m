@@ -120,7 +120,7 @@ output_path = fullfile('output', setting.dataset_name) ;
 if ~exist(output_path,'dir')
     mkdir(output_path) ; 
 end 
-img_path = fullfile('data', 'img_exp3') ;  % path of the synthesized images
+img_path = fullfile('datasets', 'MDA_MB_231') ;  % path to the images
 %% Loading measurements
     load(fullfile('data', 'meas_exp3.mat')) ;  % load the meas data
 %% Prediction Approximation
