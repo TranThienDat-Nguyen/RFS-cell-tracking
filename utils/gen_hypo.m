@@ -1,6 +1,3 @@
-% run prediction apprx to generate hypotheses .. 
-% same as before exept doesnt have "ah" field and dont apply Gaussian
-% cap/prune/merge
 function hypo = gen_hypo(model, tt_birth, r_b,  tt_in, meas, N_clutter_in, sampling_factor, filter, k)
     % this funtion performs the sampling step ..
     numBirths = length(tt_birth) ; 
