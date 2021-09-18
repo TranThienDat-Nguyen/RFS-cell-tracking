@@ -179,6 +179,7 @@ for r = 1:1
     
     %% Run main filtering
         %% Approximation prediction strategy
+    disp('Running prediction approximation filter ...')
     meas_ru = eps * ones(size(meas.Z{1},2),1) ;
     tt_birth = gen_meas_driven_birth(model, meas, meas_ru, 1, 1:length(meas_ru));
     glmb_update.tt= cell(0,1);      %track table for GLMB (cell array of structs for individual tracks)
@@ -230,6 +231,7 @@ for r = 1:1
     end
     
         %% Approximation update strategy
+    disp('Running update approximation filter ...')
     meas_ru = eps * ones(size(meas.Z{1},2),1) ;
     tt_birth = gen_meas_driven_birth(model, meas, meas_ru, 1, 1:length(meas_ru));
     glmb_update.tt= cell(0,1);      %track table for GLMB (cell array of structs for individual tracks)
@@ -277,6 +279,7 @@ for r = 1:1
     end
     
         %% Exact filtering strategy
+    disp('Running exact filter ...')
     meas_ru = eps * ones(size(meas.Z{1},2),1) ;
     tt_birth = gen_meas_driven_birth(model, meas, meas_ru, 1, 1:length(meas_ru));
     mixture_update.jtt= cell(0,1);      %track table for GLMB (cell array of structs for individual tracks)
