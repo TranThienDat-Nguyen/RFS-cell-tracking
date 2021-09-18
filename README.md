@@ -16,7 +16,8 @@ cd to the folder contains the files 'demo_exp1.m', 'demo_exp2.m', and 'demo_exp3
 Run demo_exp1.m for experiment 1 in the paper.\
 Run demo_exp2.m for experiment 2 in the paper.\
 Run demo_exp3.m for experiment 3 in the paper.\
-The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate. If you do not have enough memory, please consider reducing the number of cores in your parallel computation setting.
+The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate. If you do not have enough memory, please consider reducing the number of cores in your parallel computation setting. \
+The filters will generate a folder 'output' when running to store temporary information required for analyzing the resutls.
 # Datasets
 ## Synthetic datasets
 The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. 'synthetic_X' folders contain the synthesized cell migration sequences from the best quality 'synthetic_01' to the worst quality 'synthetic_05'. Folder 'synthetic_truth' contains the ground truth annotated using Cell Tracking Challenge format (https://public.celltrackingchallenge.net/documents/Naming%20and%20file%20content%20conventions.pdf).
