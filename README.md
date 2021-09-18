@@ -18,8 +18,10 @@ Run demo_exp2.m for experiment 2 in the paper.\
 Run demo_exp3.m for experiment 3 in the paper.\
 The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate. If you do not have enough memory, please consider reducing the number of cores in your parallel computation setting.
 # Datasets
-The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. \
-The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'data/img_exp3'.
+## Synthetic datasets
+The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. 'synthetic_X' folders contain the synthesized cell migration sequences from the best quality 'synthetic_01' to the worst quality 'synthetic_05'. Folder 'synthetic_truth' contains the ground truth annotated using Cell Tracking Challenge format (https://public.celltrackingchallenge.net/documents/Naming%20and%20file%20content%20conventions.pdf).
+## MDA-MB-231 dataset
+The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'datasets/MDA_MB_231'.
 # Acknowledgments
 This implementation is based on MATLAB RFS tracking toolbox provided by Prof. Ba-Tuong Vo at http://ba-tuong.vo-au.com/codes.html. \
 The computation of TRA score is based on BaxterAlgorithms cell tracking package provided by Dr. Klas Magnusson at https://github.com/klasma/BaxterAlgorithms. \
