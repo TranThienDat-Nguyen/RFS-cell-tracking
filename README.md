@@ -17,7 +17,7 @@ Run demo_exp1.m for experiment 1 in the paper.\
 Run demo_exp2.m for experiment 2 in the paper.\
 Run demo_exp3.m for experiment 3 in the paper.\
 The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate. If you do not have enough memory, please consider reducing the number of cores in your parallel computation setting.
-# Testing datasets
+# Datasets
 The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. \
 The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'data/img_exp3'.
 # Acknowledgments
