@@ -1,4 +1,15 @@
 function [optm_costm_clutter_first , optm_costm_clutter] = gen_clutter_lookup(model, N_max_clt_births_first, N_max_cl, N_top_cl, N_max_z, N_min_z)
+% Implemented by Dr. Yuthika Gardiyawasam Punchihewa
+% Reference:
+% @ARTICLE{8330752,
+%  author={Punchihewa, Yuthika Gardiyawasam and Vo, Ba-Tuong and Vo, Ba-Ngu and Kim, Du Yong},
+%  journal={IEEE Transactions on Signal Processing}, 
+%  title={Multiple Object Tracking in Unknown Backgrounds With Labeled Random Finite Sets}, 
+%  year={2018},
+%  volume={66},
+%  number={11},
+%  pages={3040-3055},
+%  doi={10.1109/TSP.2018.2821650}}
 
 %clutter target birth modeal
 N_max_clt_births_first = 100;
@@ -103,8 +114,6 @@ for cidx = 1:N_max_cl+1
             end
         end              
         [sorted_costm_clutter_total, idxs] = sort( -costm_clutter_total{cidx,zidx});
-%         optm_costm_clutter{cidx,zidx}(1,1:N_top_cl) = idxs(1:N_top_cl);
-%         optm_costm_clutter{cidx,zidx}(2,1:N_top_cl) = -sorted_costm_clutter_total(1:N_top_cl);
         optm_costm_clutter{cidx,zidx}(1,1:N_top_cl) = idxs(1:N_top_cl);
         optm_costm_clutter{cidx,zidx}(2,1:N_top_cl) = -sorted_costm_clutter_total(1:N_top_cl);
     end
