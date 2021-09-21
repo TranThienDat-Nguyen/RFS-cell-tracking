@@ -13,9 +13,9 @@ This implementation requires MATLAB 2019a or later with following toolboxes: Ima
 The codes were tested on Windows and Linux machines.
 # Usages
 cd to the folder contains the files 'demo_exp1.m', 'demo_exp2.m', and 'demo_exp3.m'. \
-Run demo_exp1.m for experiment 1 in the paper.\
-Run demo_exp2.m for experiment 2 in the paper.\
-Run demo_exp3.m for experiment 3 in the paper.\
+Run demo_exp1.m for tracking with simulated data.\
+Run demo_exp2.m for tracking with synthetic cell migration datasets.\
+Run demo_exp3.m for tracking with real migration sequence of breast cancer cells.\
 The filters are designed to run on multiple CPU cores, if you do not want this feature, please consider changing the 'parfor' loop to 'for' loop where appropriate. If you do not have enough memory, please consider reducing the number of cores in your parallel computation setting. \
 The filters will generate a folder 'output' while running to store temporary information for analysis.
 # Datasets
