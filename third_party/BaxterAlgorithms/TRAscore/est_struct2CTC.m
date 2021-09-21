@@ -48,7 +48,7 @@ function est_struct2CTC(est, output_path, width, height)
     temp_indc = find(res_track(:,3) == 0) ; 
     res_track(temp_indc,3) = res_track(temp_indc,2) ; 
     filename = fullfile(fol_name, 'res_track.txt') ; 
-    writematrix(res_track, filename, 'Delimiter', ' ') ; 
+    dlmwrite(filename, res_track, 'delimiter', ' ') ; 
 end
 
 function [count, c]= countestlabels(est_L)
