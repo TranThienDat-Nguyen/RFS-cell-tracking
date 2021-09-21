@@ -20,7 +20,7 @@ The filters are designed to run on multiple CPU cores, if you do not want this f
 The filters will generate a folder 'output' while running to store temporary information for analysis.
 # Datasets
 ## Synthetic datasets
-The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. 'synthetic_X' folders contain the synthesized cell migration sequences from the best quality 'synthetic_01' to the worst quality 'synthetic_05'. Folder 'synthetic_truth' contains the ground truth annotated using Cell Tracking Challenge format (https://public.celltrackingchallenge.net/documents/Naming%20and%20file%20content%20conventions.pdf).
+The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. When you run the file 'demo_exp2.m', the codes will randomly generate synthetic sequences (using the prescribed ground truth and noise parameters but with random realization of noise). If you just want the datasets without running the codes, they are avaialble in the 'datasets' folder.  'synthetic_X' folders contain the synthetic cell migration sequences from the best quality 'synthetic_01' to the worst quality 'synthetic_05'. Folder 'synthetic_truth' contains the ground truth annotated using Cell Tracking Challenge format (https://public.celltrackingchallenge.net/documents/Naming%20and%20file%20content%20conventions.pdf).
 ## MDA-MB-231 dataset
 The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'datasets/MDA_MB_231'.
 # Acknowledgments
