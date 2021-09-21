@@ -1,5 +1,5 @@
 %% Info
-% Run the breast cancer cell tracking experiment in the paper
+% Run tracking with real breast cancer cell sequence
 %% Prepare workspace
 clear all
 clc
