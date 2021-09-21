@@ -1,4 +1,4 @@
-function est = extract_hypothesis_clean(glmb, model)
+function est = extract_tracks(glmb, model)
     K = length(glmb.est_L{1}) ; 
     est(1).X= cell(K,1);
     est(1).pD= cell(K,1) ; 
