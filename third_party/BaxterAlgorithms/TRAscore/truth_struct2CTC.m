@@ -39,6 +39,6 @@ function truth_struct2CTC(truth, output_path, width, height)
     temp_indc = find(man_track(:,3) == 0) ; 
     man_track(temp_indc,3) = man_track(temp_indc,2) ; 
     man_file_path = fullfile(folname, 'man_track.txt') ; 
-    writematrix(man_track, man_file_path, 'Delimiter', ' ') ; 
+    dlmwrite(man_file_path, man_track, 'delimiter', ' ') ; 
 end
         
