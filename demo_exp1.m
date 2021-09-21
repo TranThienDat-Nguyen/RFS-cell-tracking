@@ -1,5 +1,5 @@
 %% Info
-% Run the simulation experiment in the paper
+% Run tracking with simulation data
 %% Prepare workspace
 clear all
 clc
