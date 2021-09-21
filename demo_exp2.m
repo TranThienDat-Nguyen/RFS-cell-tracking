@@ -1,5 +1,5 @@
 %% Info
-% Run the synthetic cell tracking experiment in the paper
+% Run tracking with synthetic sequences
 %% Prepare workspace
 clear all
 clc
