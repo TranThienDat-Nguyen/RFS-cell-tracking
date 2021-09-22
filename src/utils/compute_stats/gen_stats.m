@@ -204,7 +204,6 @@ function gen_stats(setting, output_path, id)
     set(gca, 'FontSize', FS); 
 
     xlabel('Time step','FontSize', FS);
-    title('Cardinality statistics')
     
         % Plot the position heatmaps
     figure('Name', ['Position_intensity_', id])
