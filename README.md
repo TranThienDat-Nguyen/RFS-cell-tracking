@@ -1,12 +1,15 @@
 # Labeled RFS cell tracking algorithms
 These codes are implementation of cell tracking and lineage inference algorithms based on labeled random finite set. The algorithms are described in the following paper:\
-@article{NVVKC2021CellTracking, \
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; title={Tracking Cells and their Lineages via Labeled Random Finite Sets},\
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; author={Tran Thien Dat Nguyen and Ba-Ngu Vo and Ba-Tuong Vo and Du Yong Kim and Yu Suk Choi},\
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; year={2021},\
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; journal={IEEE Transactions on Signal Processing}\
-}. \
-Preprint version of this paper is available at https://arxiv.org/pdf/2104.10964.pdf. \
+@ARTICLE{9536381, \
+  author={Nguyen, Tran Thien Dat and Vo, Ba-Ngu and Vo, Ba-Tuong and Kim, Du Yong and Choi, Yu Suk}, \
+  journal={IEEE Transactions on Signal Processing},  \
+  title={Tracking Cells and Their Lineages Via Labeled Random Finite Sets}, \
+  year={2021},\
+  volume={69},\
+  number={},\
+  pages={5611-5626},\
+  doi={10.1109/TSP.2021.3111705}} \
+The paper is available at https://ieeexplore.ieee.org/document/9536381. \
 Default settings are obtained from the paper, please follow the comments in demo files to adjust the parameters for your specific applications. The codes are developed for research purposes and not optimized for speed.
 # Requirements
 This implementation requires MATLAB with following toolboxes: Image Processing Toolbox, Statistics and Machine Learning Toolbox, Parallel Computing Toolbox, and Fuzzy Logic Toolbox. \
