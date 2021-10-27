@@ -26,7 +26,8 @@ Note: the estimated results at each time step (as shown in MATLAB console) are o
 ## Synthetic datasets
 The synthetic datasets (in experiment 2) are generated using simcep simulation tool with certain modifications to account for cell division. When the file 'demo_exp2.m' is run, the codes will randomly generate synthetic sequences (using the prescribed ground truth and noise parameters but with random realization of noise). The generated sequences will be stored in 'output/Synthetic_X' folder. If you just want the datasets without running the codes, they are avaialble in the 'datasets' folder.  'synthetic_X' folders contain the synthetic cell migration sequences from the best quality 'synthetic_01' to the worst quality 'synthetic_05'. Folder 'synthetic_truth' contains the ground truth annotated using Cell Tracking Challenge format (https://public.celltrackingchallenge.net/documents/Naming%20and%20file%20content%20conventions.pdf).
 ## MDA-MB-231 dataset
-The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'datasets/MDA_MB_231'.
+The breast cancer cells dataset (MDA-MB-231) used in experiement 3 is provided in folder 'datasets/MDA_MB_231'. \
+Datasets and labels (manual annotations) are also included for training purpose. 
 # Acknowledgments
 This implementation is based on MATLAB RFS tracking toolbox provided by Prof. Ba-Tuong Vo at http://ba-tuong.vo-au.com/codes.html. \
 The computation of TRA score is based on BaxterAlgorithms cell tracking package provided by Dr. Klas Magnusson at https://github.com/klasma/BaxterAlgorithms. \
